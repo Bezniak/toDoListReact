@@ -1,0 +1,21 @@
+.todo-list-item {
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.todo-list-item__title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.todo-list-item__title.completed {
+    text-decoration: line-through;
+}
+
+.todo-list-item__remove-btn {
+    cursor: pointer;
+}

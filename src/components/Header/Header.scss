@@ -1,0 +1,41 @@
+.header-wrapper {
+  margin: 10px auto;
+  max-width: 500px;
+  &__inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.green, .tomato, .purple {
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+}
+
+.tomato {
+  color: tomato;
+}
+
+.purple {
+  color: #b042ff;
+}
+
+.add-todo, .find-todos {
+  padding: 5px;
+  margin-top: 5px;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.add-todo:focus, .find-todos:focus {
+  outline: none;
+  border: 3px solid #b042ff;
+}
+
+.find-todos {
+  margin-left: 5px;
+}
